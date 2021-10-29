@@ -33,10 +33,10 @@ field.send_keys(temp.read())
 temp.close()
 
 id = driver.find_element_by_id("password")
-id.send_keys("djfudnj1")
+id.send_keys("")
 
 ps = driver.find_element_by_id("confirm-password")
-ps.send_keys("djfudnj1")
+ps.send_keys("")
 
 checkbox = driver.find_element_by_xpath('//*[@id="app-content"]/div/div[2]/div/div/form/div[7]/div')
 checkbox.click()
